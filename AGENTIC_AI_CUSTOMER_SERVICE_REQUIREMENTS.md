@@ -115,92 +115,72 @@ flowchart LR
 ## 5. Functional Requirements
 ### 5.1 Query Intake and Classification
 
-The system shall ingest customer queries from configured channels
-
-The system shall classify queries by intent and complexity
-
-The system shall determine automation eligibility
+- The system shall ingest customer queries from configured channels
+- The system shall classify queries by intent and complexity
+- The system shall determine automation eligibility
 
 ### 5.2 Agentic AI Behaviour
 
-The system shall invoke an AI agent for eligible queries
-
-The AI agent shall retrieve relevant knowledge base content
-
-The AI agent shall maintain conversational context
+- The system shall invoke an AI agent for eligible queries
+- The AI agent shall retrieve relevant knowledge base content
+- The AI agent shall maintain conversational context
 
 ### 5.3 Escalation and Human Oversight
 
-Queries exceeding confidence or risk thresholds shall be escalated
-
-Escalations shall be routed to appropriate human agents
-
-Human agents shall be able to override AI-generated responses
+- Queries exceeding confidence or risk thresholds shall be escalated
+- Escalations shall be routed to appropriate human agents
+- Human agents shall be able to override AI-generated responses
 
 ### 5.4 Logging and Audit
 
-All classifications, responses, and escalations shall be logged
-
-Logs shall include timestamps, confidence scores, and actions taken
+- All classifications, responses, and escalations shall be logged
+- Logs shall include timestamps, confidence scores, and actions taken
 
 ### 5.5 Decision Logic
 
-Automation decisions shall consider complexity, confidence, sensitivity, and context
-
-Automation rules shall be configurable without code changes
+- Automation decisions shall consider complexity, confidence, sensitivity, and context
+- Automation rules shall be configurable without code changes
 
 ## 6. Non-Functional Requirements
 
-Performance: responses meet defined latency thresholds
-
-Accuracy: confidence scoring drives escalation
+- Performance: responses meet defined latency thresholds
+- Accuracy: confidence scoring drives escalation
 
 Security: role-based access and data privacy
 
-Availability: high availability and horizontal scalability
-
-Explainability: decisions are visible to agents
+- Availability: high availability and horizontal scalability
+- Explainability: decisions are visible to agents
 
 ## 7. Assumptions and Constraints
-Assumptions
 
-Knowledge base is maintained by domain experts
+Assumptions:
 
-Eligible query types are clearly defined
+- Knowledge base is maintained by domain experts
+- Eligible query types are clearly defined
 
-Constraints
+Constraints:
 
-Accuracy thresholds limit full automation
-
-Open-source governance requires transparency
+- Accuracy thresholds limit full automation
+- Open-source governance requires transparency
 
 ## 8. Success Metrics
 
-Reduction in average handling time
-
-% of queries resolved autonomously
-
-Reduction in agent workload
-
-Override and re-contact rates
+- Reduction in average handling time
+- % of queries resolved autonomously
+- Reduction in agent workload
+- Override and re-contact rates
 
 ## 9. Governance and Change Management
 
-Automation rules are version-controlled
-
-Threshold changes require approval
-
-Performance is reviewed periodically
+- Automation rules are version-controlled
+- Threshold changes require approval
+- Performance is reviewed periodically
 
 ## 10. Exception Handling
 
-Classification failures are escalated
-
-Context failures are escalated
-
-All errors are logged and traceable
-
-## 11. Role of Business Analysis
+- Classification failures are escalated
+- Context failures are escalated
+- All errors are logged and traceable
 
 This document reflects structured analysis of customer service workflows, stakeholder needs, and operational constraints, translating business problems into clear, testable system requirements.
 

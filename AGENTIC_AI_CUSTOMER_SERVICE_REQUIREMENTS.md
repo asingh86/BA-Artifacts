@@ -1,3 +1,6 @@
+I personally performed the analysis, requirements elicitation, and documentation activities described in this artefact. While the work was published as open-source documentation, the structure, content, and analytical decisions reflect my individual contribution as an ICT Business Analyst.
+
+
 # Agentic AI Customer Service Automation System
 
 ## Purpose

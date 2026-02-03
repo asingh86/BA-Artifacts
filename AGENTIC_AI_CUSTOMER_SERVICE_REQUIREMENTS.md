@@ -4,9 +4,11 @@ I personally performed the analysis, requirements elicitation, and documentation
 # Agentic AI Customer Service Automation System
 
 ## Purpose
-This document defines the functional and technical specifications for an **agentic AI–based customer service automation system** designed to reduce manual query handling, improve response consistency, and increase operational efficiency.
+This document defines the functional and technical specifications for an **agentic AI–based customer service automation system** designed to reduce manual query handling, improve response consistency, and increase operational efficiency. Requirements were derived through analysis of user issues, contributor discussions, and documented service scenarios.
 
 The documentation supports implementation within an open-source environment and aligns business processes, system behaviour, and governance requirements.
+
+
 
 ---
 

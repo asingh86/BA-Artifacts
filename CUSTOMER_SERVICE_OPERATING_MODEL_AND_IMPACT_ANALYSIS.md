@@ -123,15 +123,7 @@ The transition to the agentic AI–enabled operating model is designed to minimi
 
 ---
 
-## 8. Why This Artefact Demonstrates ICT Business Analysis
-
-This artefact demonstrates professional ICT business analysis competencies, including:
-
-- Business process analysis and redesign  
-- Operating model definition  
-- Role and responsibility analysis  
-- Change impact assessment  
-- Governance and risk management  
+These operating model changes are enabled through the ICT system behaviour and automation controls defined in Artefact 1.
 
 ## License
 This documentation is intended for open-source use and may be adapted under the terms of the project license.
